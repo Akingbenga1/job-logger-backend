@@ -11,9 +11,9 @@ At a minimum this solution provides the ability to:
 ## Setup & Instruction
 
 1. Clone the repository: `git clone https://github.com/Akingbenga1/job-logger-backend.git`
-2. Assuming that the Dependencies listed above are satisfied, you can ```cd``` into the directory called ```job-logger-backend```
+2. You can ```cd``` into the directory called ```job-logger-backend```
 3. When inside this repository directory, run ```composer install``` to install the project dependencies. Please, ensure that your system has `php 8.0 and above` installed before running composer.
-4. Modify the .env file and set the required database credentials.
+4. Create or Modify the .env file and set the required database credentials.
 5. Run `php artisan migrate` to generate the database tables.
 6. To test, make sure you are still in this repository directory and in your terminal, to run the test suite run ```php artisan test``` for the test.
 7. To start the laravel application, you can simply run `php artisan serve`. This will serve the laravel application on this url `http://127.0.0.1:8000/.`
